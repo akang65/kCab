@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kCab", "kCab.csproj", "{2AB46794-1593-4B52-8FF0-D3F082DC2C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataibrary", "..\Dataibrary\Dataibrary.csproj", "{A0656C90-CE74-410A-A005-8F16516BA8CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AB46794-1593-4B52-8FF0-D3F082DC2C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB46794-1593-4B52-8FF0-D3F082DC2C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB46794-1593-4B52-8FF0-D3F082DC2C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB46794-1593-4B52-8FF0-D3F082DC2C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0656C90-CE74-410A-A005-8F16516BA8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0656C90-CE74-410A-A005-8F16516BA8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0656C90-CE74-410A-A005-8F16516BA8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0656C90-CE74-410A-A005-8F16516BA8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36E3462F-BD7B-4ABF-9938-6E8BAA8B2923}
+	EndGlobalSection
+EndGlobal
