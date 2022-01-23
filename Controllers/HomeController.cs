@@ -1,6 +1,8 @@
-﻿using System;
+﻿using kCab.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 
@@ -26,5 +28,23 @@ namespace kCab.Controllers
 
             return View();
         }
+
+       
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public  ActionResult Contact(ContactUsModel model)
+        {
+            if(ModelState.IsValid)
+            {
+                EmailController controller = new EmailController();
+                controller.SendEmail(model.Email, model.Subject, model.Message);
+               
+            }
+            ViewBag.Message = "Your contact page.";
+            return View();
+
+        }
+        
     }
 }

@@ -9,6 +9,8 @@ namespace kCab.Models
     public class AgentAdminModel
     {
         public int id { get; set; }
+       
+        public int AdminId { get; set; }
 
         [Required(ErrorMessage ="Name required")]
         [Display(Name ="Enter Name" )]
