@@ -1,0 +1,9 @@
+F:\nielit project\Dataibrary\bin\Debug\Dataibrary.dll
+F:\nielit project\Dataibrary\bin\Debug\Dataibrary.pdb
+F:\nielit project\Dataibrary\bin\Debug\Dapper.dll
+F:\nielit project\Dataibrary\bin\Debug\Dapper.xml
+F:\nielit project\Dataibrary\obj\Debug\Dataibrary.csproj.AssemblyReference.cache
+F:\nielit project\Dataibrary\obj\Debug\Dataibrary.csproj.CoreCompileInputs.cache
+F:\nielit project\Dataibrary\obj\Debug\Dataibrary.csproj.CopyComplete
+F:\nielit project\Dataibrary\obj\Debug\Dataibrary.dll
+F:\nielit project\Dataibrary\obj\Debug\Dataibrary.pdb
